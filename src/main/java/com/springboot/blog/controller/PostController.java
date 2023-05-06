@@ -37,6 +37,8 @@ public class PostController {
     public ResponseEntity<PostDto> getPostById(@PathVariable(name = "id") long id){
         return ResponseEntity.ok(postService.getPostById(id));
         //System.out.println("janu");
+        //mera changes hai
+        //tumhe kya
     }
 
     // update post by id rest api
