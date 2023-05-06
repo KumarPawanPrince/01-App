@@ -22,6 +22,8 @@ public class PostController {
     @PostMapping
     public ResponseEntity<PostDto> createPost(@RequestBody PostDto postDto){
         return new ResponseEntity<>(postService.createPost(postDto), HttpStatus.CREATED);
+        //System.out.println("janu");
+        //System.out.println("manu");
     }
 
     // get all posts rest api
