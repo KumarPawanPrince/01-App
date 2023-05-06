@@ -7,7 +7,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+	</parent> //mera naam pawan
 	<groupId>com.springboot.blog</groupId>
 	<artifactId>springboot-blog-rest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
