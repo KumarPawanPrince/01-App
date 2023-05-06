@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface PostRepository extends JpaRepository<Post, Long> {
     //System.out.println("janu");
     //System.out.println("manu");
+    //System.out.println("janu");
 
 //what is your name?
 int j=10;

@@ -24,7 +24,7 @@ public class Post {
 
     @Column(name = "title", nullable = false)
     private String title;
-
+    //System.out.println("janu");
     @Column(name = "description", nullable = false)
     private String description;
     //System.out.println("janu");

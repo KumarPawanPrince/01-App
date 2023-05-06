@@ -36,6 +36,7 @@ public class PostController {
     @GetMapping("/{id}")
     public ResponseEntity<PostDto> getPostById(@PathVariable(name = "id") long id){
         return ResponseEntity.ok(postService.getPostById(id));
+        //System.out.println("janu");
     }
 
     // update post by id rest api
