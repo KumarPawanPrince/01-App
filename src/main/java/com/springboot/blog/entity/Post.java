@@ -27,6 +27,8 @@ public class Post {
 
     @Column(name = "description", nullable = false)
     private String description;
+    //System.out.println("janu");
+    //System.out.println("manu");
 
     @Column(name = "content", nullable = false)
     private String content;
